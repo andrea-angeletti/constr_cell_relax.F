@@ -10,8 +10,10 @@ This is done via the routine CONSTR_CELL_RELAX which allow to constraint the cel
 FCELL contains the forces on the basis vectors. These forces are used to modify the basis vectors.
 
 Stress_Tensor = | 11	12	13 |
-		            | 21	22	23 |
- 		            | 31	32	33 |
+
+		| 21	22	23 |
+
+		| 31	32	33 |
 
 The flag used in INCAR is "CONSTRCELL" and is built this way:
 
