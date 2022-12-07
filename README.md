@@ -11,11 +11,11 @@ FCELL contains the forces on the basis vectors. These forces are used to modify 
 
 Stress_Tensor = 
 
-		| 11	12	13 |
+| 11	12	13 |
 
-		| 21	22	23 |
+| 21	22	23 |
 
-		| 31	32	33 |
+| 31	32	33 |
 
 The flag used in INCAR is "CONSTRCELL" and is built this way:
 
