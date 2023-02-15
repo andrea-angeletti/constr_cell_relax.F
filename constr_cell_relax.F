@@ -60,8 +60,8 @@
         IF (CONSTRCELL(8).eq.0) FCELL(3,2)=0
         IF (CONSTRCELL(9).eq.0) FCELL(3,3)=0
 
-      write(*,*) 'FCELL ACTIVATED', CONSTRCELL
-      write(*,*) FCELL
+!      write(*,*) 'FCELL ACTIVATED', CONSTRCELL
+!      write(*,*) FCELL
 
       RETURN
       END SUBROUTINE
