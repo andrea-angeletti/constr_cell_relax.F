@@ -50,7 +50,7 @@
 
       CALL PROCESS_INCAR(LOPEN, IU0, IU5, 'CONSTRCELL', CONSTRCELL, 9, IERR, WRITEXMLINCAR)
 
-        IF (CONSTRCELL(1).eq.0) FCELL(1,1)=0   
+        IF (CONSTRCELL(1).eq.0) FCELL(1,1)=0
         IF (CONSTRCELL(2).eq.0) FCELL(1,2)=0
         IF (CONSTRCELL(3).eq.0) FCELL(1,3)=0
         IF (CONSTRCELL(4).eq.0) FCELL(2,1)=0
@@ -60,10 +60,8 @@
         IF (CONSTRCELL(8).eq.0) FCELL(3,2)=0
         IF (CONSTRCELL(9).eq.0) FCELL(3,3)=0
 
-!      write(*,*) 'FCELL ACTIVATED', CONSTRCELL
-!      write(*,*) FCELL
+      !write(*,*) 'FCELL ACTIVATED', CONSTRCELL
+      !write(*,*) FCELL
 
       RETURN
       END SUBROUTINE
-
-
